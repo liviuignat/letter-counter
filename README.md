@@ -2,9 +2,7 @@
 
 ### Description
 
-Please create a function
-That receives as a parameter a string input
-and returns as output an object with the number of occurences for each letter in that string.
+Please create a function that receives as a parameter a string input and returns as output an object with the number of occurences for each letter in that string.
 
 Example function
 
