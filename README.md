@@ -17,6 +17,30 @@ const letterCounter = (input: string): ILetterCounter[] => {
 };
 ```
 
+Example test cases:
+
+```ts
+letterCounter('aabc') --> returns [{
+  letter: 'a',
+  occurences: 2,
+}, {
+  letter: 'b',
+  occurences: 1,
+}, {
+  letter: 'c',
+  occurences: 1,
+}]
+
+letterCounter('aabb') --> returns [{
+  letter: 'a',
+  occurences: 2,
+}, {
+  letter: 'b',
+  occurences: 2,
+}]
+
+```
+
 ```sh
 yarn install
 yarn test
