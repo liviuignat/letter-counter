@@ -20,7 +20,10 @@ const letterCounter = (input: string): ILetterCounter[] => {
 Example test cases:
 
 ```ts
-letterCounter('aabc') --> returns [{
+// 1st test case
+const result = letterCounter('aabc') 
+
+expects(result).toEqual([{
   letter: 'a',
   occurences: 2,
 }, {
@@ -29,16 +32,18 @@ letterCounter('aabc') --> returns [{
 }, {
   letter: 'c',
   occurences: 1,
-}]
+}])
 
-letterCounter('aabb') --> returns [{
+// 2nd test case
+const result = letterCounter('aabb') 
+
+expects(result).toEqual([{
   letter: 'a',
   occurences: 2,
 }, {
   letter: 'b',
   occurences: 2,
-}]
-
+}])
 ```
 
 ```sh
